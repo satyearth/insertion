@@ -1,5 +1,3 @@
-//insertion sort an array 
-
 #include<iostream>
 using namespace std;
 
@@ -12,7 +10,6 @@ void insertionSort(int arr[], int n)
 
 		while (j >= 0 && arr[j] > temp) 
 		{
-			// arr[j + 1] = arr[j];
 			swap(arr[j + 1] ,arr[j]);
 			j --;             
 		}
